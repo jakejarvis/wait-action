@@ -7,7 +7,7 @@ Input follows the Linux `sleep` syntax for time units: a number followed by `s` 
 
 ## Usage
 
-```
+```yaml
 jobs:
   deploy:
     runs-on: ubuntu-latest
