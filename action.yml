@@ -1,0 +1,13 @@
+name: 'Wait / Sleep'
+description: 'Very simple action to sleep for an amount of time (10s, 2m, etc.)'
+branding:
+  color: purple
+  icon: clock
+inputs:
+  time:
+    description: 'Amount of time to wait'
+    required: false
+    default: '30s'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
