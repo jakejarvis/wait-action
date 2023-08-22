@@ -1,4 +1,4 @@
-FROM busybox:latest
+FROM public.ecr.aws/docker/library/busybox:latest
 
 LABEL "com.github.actions.name"="Wait / Sleep"
 LABEL "com.github.actions.description"="Very simple action to sleep for an amount of time (10s, 2m, etc.)"
